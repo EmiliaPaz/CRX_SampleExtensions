@@ -1,0 +1,8 @@
+{
+    "name": "Requested wikipedia 2",
+    "version": "1.0",
+    "manifest_version": 3,
+    "host_permissions": [
+        "http://www.wikipedia.org/"
+    ]
+}

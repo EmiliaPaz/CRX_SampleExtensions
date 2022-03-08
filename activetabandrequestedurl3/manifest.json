@@ -1,0 +1,11 @@
+{
+    "name": "Active tab + requested HN 3",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab"
+    ],
+    "host_permissions": [
+        "http://hackernews.com/"
+    ]
+}
