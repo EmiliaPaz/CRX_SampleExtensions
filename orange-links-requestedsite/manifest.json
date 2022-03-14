@@ -1,5 +1,5 @@
 {
-  "name": "Orange links in wikipedia",
+  "name": "Orange links - wikipedia",
   "action": {},
   "manifest_version": 3,
   "version": "0.1",
@@ -10,7 +10,7 @@
     "tabs"
   ],
   "host_permissions": [
-    "http://www.wikipedia.org/"
+    "https://www.wikipedia.org/"
   ],
   "background": {
     "service_worker": "background.js"
