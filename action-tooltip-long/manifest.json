@@ -1,0 +1,9 @@
+{
+  "name": "Extension with a very big huge large long name and a very big huge large long tooltip that should span into multiple lines",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "",
+  "action": {
+    "default_title": "This is the very big huge large long tooltip that should span into multiple lines"
+  }
+}

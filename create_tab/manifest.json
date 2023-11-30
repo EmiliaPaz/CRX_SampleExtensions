@@ -1,0 +1,9 @@
+{
+  "name": "Create tab",
+  "description": "Extension changes the tab 5 seconds after it's installed. This is useful to see how UI is affected (e.g what happens when tab changes when extensions menu is opened",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Extension with action tooltip",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "",
+  "action": {
+    "default_title": "Extension tooltip"
+  }
+}

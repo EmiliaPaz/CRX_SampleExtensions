@@ -1,0 +1,9 @@
+{
+    "name": "Empty extension 1",
+    "version": "1.0",
+    "manifest_version": 3,
+    "optional_permissions": [
+      // "https://*.wikipedia.org/"
+      "https://*/"
+    ]
+}

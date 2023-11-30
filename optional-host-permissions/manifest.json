@@ -1,0 +1,10 @@
+{
+  "name": "Optional permissions extension",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "Extension that requests optional example.com and injects a content script to <all_urls>. Optional host permissions are granted when the user clicks on a button in the popup",
+  "action": {"default_popup": "default_popup.html"},
+  "background": {"service_worker": "service_worker.js"},
+  "permissions": ["userScripts"],
+  "optional_host_permissions": ["https://example.com/*"]
+}

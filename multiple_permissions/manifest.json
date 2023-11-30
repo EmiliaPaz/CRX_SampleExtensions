@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Multiple permissions",
+  "description": "Extension that requests a LOT of permissions",
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "permissions": [
+    "activeTab",
+    "alarms",
+    "background",
+    "browsingData",
+    "clipboardRead",
+    "clipboardWrite",
+    "contentSettings",
+    "contextMenus",
+    "cookies",
+    "declarativeContent",
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "declarativeNetRequestFeedback",
+    "downloads",
+    "fontSettings",
+    "gcm",
+    "geolocation",
+    "history",
+    "identity",
+    "idle"
+  ]
+}
