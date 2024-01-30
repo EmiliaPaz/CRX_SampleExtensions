@@ -14,6 +14,9 @@ Chromium development. These are mainly used to test bugs or see UI changes.
   * [ActiveTab](activetab/): extension requests activeTab permission
   * [ActiveTab and requested URL](activetab-and-requested-url/): extension requests activeTab permission and example.com host permission
   * [AllUrls](allurls/): extension requests 'all_urls' host permission
+  * [Chrome Extension Page with activeTab](chrome-extension-page-activetab): extension that opens a chrome extension owned page with activeTab permission
+  * [Chrome Extension Page with activeTab and all_urls](chrome-extension-page-activetab-allurls): extension that opens a chrome extension owned page with activeTab permission and `<all_urls>` host permissions
+  * [Chrome Extension Page with all_urls](chrome-extension-page-allurls): extension that opens a chrome extension owned page with `<all_urls>` host permissions
   * [Empty](empty/): extension doesn't request any permission
   * [Optional host permissions](optional-host-permissions/): extension requests optional host permissions and inserts a content script on example.com when granted on user action
   * [Requested URL](requested-url/): extension requests wikipedia.org host permission

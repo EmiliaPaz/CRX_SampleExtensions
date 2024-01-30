@@ -1,0 +1,7 @@
+{
+  "name": "Chrome Extension Page with ActiveTab", 
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "background": {"service_worker": "service_worker.js"},
+  "permissions": ["tabs", "activeTab"]
+}
